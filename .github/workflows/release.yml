@@ -35,7 +35,7 @@ permissions:
 jobs:
   release:
     if: contains('["KKRainbow"]', github.actor)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-jammy
     steps:
       -
         name: Checkout
